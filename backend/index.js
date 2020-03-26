@@ -22,11 +22,11 @@ Rotas / Recurso
   * Request Body:Corpo da requisição, utilizado para criar ou alterar recursos
   * 
   */
-app.get('/users/:id',(request,response) =>{
+app.post('/users',(request,response) =>{
 
-    const params= request.params;
+    const body= request.body;
 
-    console.log(params);
+    console.log(body);
 
     return response.json({
         evento:"Semana OmniStack 11.0",
