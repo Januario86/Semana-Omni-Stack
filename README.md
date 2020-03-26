@@ -3,7 +3,7 @@ Desenvolver um app para ongs de Animais domésticos(pets), possibilitando o cada
 Stack utilizada para desenvolvimento JS
 
 Backend - Node.js, Express.js
-Banco - PostgreSQL
+Banco - SQLite
 Frontend-  React, ReactNative
 Gerenciador de pacotes - Chocolatey
-Teste de rotas, protocolo HTTP: Imnsominia
+Teste de rotas, protocolo HTTP: Insomnia

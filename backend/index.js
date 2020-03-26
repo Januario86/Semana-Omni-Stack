@@ -24,6 +24,10 @@ Rotas / Recurso
   * Request Body:Corpo da requisição, utilizado para criar ou alterar recursos
   * 
   */
+ /**
+  * SQL:MySQL, SQLite, PostgreSQL, Oracle, MS SQL Server
+  * NOSQL:MongoDB,CouchDB,etc
+  */
 app.post('/users',(request,response) =>{
 
     const body= request.body;
@@ -32,7 +36,7 @@ app.post('/users',(request,response) =>{
 
     return response.json({
         evento:"Semana OmniStack 11.0",
-        aluno:'Felipe Januário'
+        aluno:'Felipe Teste'
     })
 });
 
