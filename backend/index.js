@@ -13,7 +13,7 @@ Rotas / Recurso
  * PUT: alterar uma informação no back-end
  * DELETE: deletar uma informação no back-end
  */
-app.get('/users',(request,response) =>{
+app.post('/users',(request,response) =>{
 
     return response.json({
         evento:"Semana OmniStack 11.0",
