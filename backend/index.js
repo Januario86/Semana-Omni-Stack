@@ -13,7 +13,20 @@ Rotas / Recurso
  * PUT: alterar uma informação no back-end
  * DELETE: deletar uma informação no back-end
  */
-app.post('/users',(request,response) =>{
+
+ /**
+  * Tipos de parâmetros:
+  * 
+  * Query:Parâmetros enviados na rota após "?"(Filtros,paginação)
+  * Route Params : ParÂmetros utilizados para identificar recursos
+  * Request Body:
+  * 
+  */
+app.get('/users',(request,response) =>{
+
+    const params= request.query;
+
+    console.log(params);
 
     return response.json({
         evento:"Semana OmniStack 11.0",
