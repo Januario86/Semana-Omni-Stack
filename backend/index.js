@@ -19,12 +19,12 @@ Rotas / Recurso
   * 
   * Query:Parâmetros enviados na rota após "?"(Filtros,paginação)
   * Route Params : ParÂmetros utilizados para identificar recursos
-  * Request Body:
+  * Request Body:Corpo da requisição, utilizado para criar ou alterar recursos
   * 
   */
-app.get('/users',(request,response) =>{
+app.get('/users/:id',(request,response) =>{
 
-    const params= request.query;
+    const params= request.params;
 
     console.log(params);
 
