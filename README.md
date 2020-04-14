@@ -7,3 +7,5 @@
 - Frontend-  React, ReactNative
 - Gerenciador de pacotes - Chocolatey
 - Teste de rotas, protocolo HTTP: Insomnia
+
+<img src="./iconimages/reactNative.png" alt="reactNative"/>
